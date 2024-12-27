@@ -1,6 +1,6 @@
 Welcome to my HTML & CSS Playground! 🎉
 
-This repository is a collection of small projects I built while embarking on my web development journey with the fantastic <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>.
+This repository is a collection of small projects I built while embarking on my web development journey with the fantastic <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>.
 
 Learning the Fundamentals: I started by mastering the foundational languages: HTML, the sturdy framework that gives structure to web pages 🧱, and CSS, the magical ingredient that adds style and personality ✨.
 
