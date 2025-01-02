@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Project Survey Form</h1>
+    <p id="description">I would appreciate your feedback on your experience using my project.Thank you for your time.</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Details</legend>
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Ex.John Doe" required>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="example@email.com" required>
+      <label id="number-label">Age(optional)</label>
+      <input type="number" id="number" min="10" max="100" placeholder="12">
+      </fieldset>
+      <fieldset>
+        <legend>Your Reviews</legend>
+      <label for="Rating">How is my project idea?</label>
+      <select name="dropdown" id="dropdown">
+       <option value="poor">Poor</option>
+            <option value="satisfactory">Satisfactory</option>
+            <option value="good">Good</option>
+            <option value="very-good">Very Good</option>
+            <option selected value="excellent">Excellent</option>
+          </select>
+<label for="Review">Did you find it useful?</label>
+<label for="yes-option">Yes</label>
+          <input id="yes-option" type="radio" name="project-idea" value="yes"/>
+          <label for="no-option">No</label>
+          <input id="no-option" type="radio" name="project-idea" value="no" />
+        </fieldset>
+<fieldset>
+  <legend>How would you describe your overall experience using our project?</legend>
+   <label for="usage">Ease of Use</label>
+          <input type="checkbox" id="usage" name="usage" value="usage" />
+           <label for="Functionality">Great Functionality</label>
+          <input type="checkbox" id="Functionality" name="Functionality" value="Functionality" />
+           <label for="Features">Good Features</label>
+          <input type="checkbox" id="Features" name="Features" value="Features" />
+          </fieldset>
+          <label for="comments">Other Comments</label>
+          <textarea name="comments" id="comments"rows="10" cols="30" placeholder="Your comments are valuable for me:)"></textarea>
+          <label for="submit">Submit your form</label>
+          <button type="submit" id="submit">Submit</button>
+      </form>
+      </body>
+</html>
