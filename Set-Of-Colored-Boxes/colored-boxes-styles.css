@@ -1,0 +1,45 @@
+body{
+  background-color:#FFFDD0;
+  font-family: arial, sans-serif;
+}
+h1{
+  text-align:center;
+}
+.color-grid{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding: 100px 0 100px 0;
+  text-decoration:bold;
+  text-align:center;
+}
+.color-box{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:150px;
+  height:150px;
+  border: 1px solid #000000;
+  border-radius:10px;
+  color:white;
+}
+.color1{
+  background-color:#FF0000;
+ margin:20px;
+}
+.color2{
+  background-color:rgb(0,127,0);
+  margin:20px;
+}
+.color3{
+  background-color:blue;
+  margin:20px;
+}
+.color4{
+  background-color:hsl(27,50%,50%);
+  margin:20px;
+}
+.color5{
+  background-color:#FF00FF;
+  margin:20px;
+}
