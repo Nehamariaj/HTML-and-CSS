@@ -1,4 +1,4 @@
-Welcome to my HTML & CSS Playground! 🎉
+<h1><em>Welcome to my HTML & CSS Playground! 🎉</em></h1>
 
 This repository is a collection of small projects I built while embarking on my web development journey with the fantastic <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>.
 
